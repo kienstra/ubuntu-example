@@ -1,3 +1,3 @@
 # Ubuntu Example
 
-An example of running an ubuntu container.
+An example of running an Ubuntu container.
