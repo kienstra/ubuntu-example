@@ -1,0 +1,14 @@
+version: 2.1
+
+jobs:
+  ubuntu-example:
+    machine:
+      image: ubuntu-1604:202111-01
+    steps:
+      - checkout
+      - run: echo "This is an example"
+
+workflows:
+  example:
+    jobs:
+      - ubuntu-example
